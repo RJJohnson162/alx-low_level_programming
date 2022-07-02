@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * Main -> assign a random number to variabl, execute and print
- * Return : always 0
+ * main - takes value for n and executes
+ * return : Always 0
  */
 int main(void)
 {
