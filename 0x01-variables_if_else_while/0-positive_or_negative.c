@@ -4,9 +4,10 @@
 
 /**
  * main - takes value for n and executes
+ * based on a condition
  * return : Always 0
  */
-main(void)
+int main(void)
 {
 int n;
 srand(time(0));
