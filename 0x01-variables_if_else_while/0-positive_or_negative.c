@@ -6,7 +6,7 @@
  * main - takes value for n and executes
  * return : Always 0
  */
-int main(void)
+main(void)
 {
 int n;
 srand(time(0));
