@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main : assign a random number to variabl, execute and print
+ * main- assign a random number to variabl, execute and print
  * Return : always 0
  */
 int main(void)
