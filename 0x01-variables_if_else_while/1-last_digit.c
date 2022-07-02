@@ -9,23 +9,22 @@
  */
 int main(void)
 {
-int n;
-
-$rand(time(0));
-n = rand() - RAND_MAX /2;
-printf("Last digit of %d is ", n);
-if (n > 0)
-{
+    int n;
+    $rand(time(0));
+    n = rand() - RAND_MAX / 2;
+    printf("Last digit of %d is ", n);
+    if (n > 0)
+    {
     printf("greater than s");
-}
-if (n == 0)
-{
+    }
+    if (n == 0)
+    {
     printf("0");
-}
-if (n < 6 && n !=0)
-{
+    }
+    if (n < 6 && n !=0)
+    {
     printf("less than 6 not 0");
-}
-printf("\n");
-return (0);
+    }
+    printf("\n");
+    return (0);
 }
