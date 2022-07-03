@@ -9,12 +9,12 @@
  */
 int main(void)
 {
-    int n;
-    for (n = 0; n < 10; n++)
-    {
-        printf("%d\n", n);
-    }
+int n;
+for (n = 0; n < 10; n++)
+{
+printf("%d\n", n);
+}
 
-    putchar("10");/*this is an ascii code for new line*/
-    return (0);
+putchar("10");/*this is an ascii code for new line*/
+return (0);
 }
