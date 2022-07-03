@@ -5,7 +5,7 @@
 /**
  * main - takes value for n and executes
  * based on a condition
- * return : Always 0
+ * Return: Always 0
  */
 int main(void)
 {
