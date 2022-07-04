@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - takes value for n and executes
- * based on a condition
- * Return: Always 0
+ * main - takesrandom number into n and executes
+ * condition given must be satiafied
+ * Return: always give 0
  */
 int main(void)
 {
