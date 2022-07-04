@@ -7,13 +7,13 @@
  * and print the last digit of the number stored in the variables n
  * Return: always 0
  */
-main(void)
+int main(void)
 {
-char ch;
-for (ch = 'z'; ch <= 'a'; ch--)
+int ch;
+for (ch = 122; ch >= 97; ch--)
 {
 putchar(ch);
 }
-/*putchar("10");-> this is an ascii code for new line*/
+putchar(10); /*this is an ascii code for new line*/
 return (0);
 }
