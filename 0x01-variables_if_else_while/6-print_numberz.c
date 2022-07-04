@@ -9,11 +9,12 @@
  */
 int main(void)
 {
-int n;
-for (n = 0; n < 10; n++)
+int ch;
+for (ch = 0; ch <= 9; ch++)
 {
-putchar(n);
+printf("%d", ch);
 }
 putchar(10);
+
 return (0);
 }
