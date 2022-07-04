@@ -9,22 +9,17 @@
  */
 int main(void)
 {
-    /**
-     * hexadecimal
-     * 0 1 2 3 4 5 6 7 8 9 a b c d e f
-     */
-    int n;
-    for(n = 48; n <= 57; n++)
-    {
-        putchar(n);
-    }
-    char ch;
-    for(ch = 'a'; ch <= 'f'; ch++)
-    {
-        putchar(ch);
-    }
+int ch;
+for(ch = 48; ch <= 57; ch++)
+{
+putchar(ch);
+if(ch !=57 )
+{
+putchar(44);
+putchar(32);
+}
+}
+putchar(10);
 
-    putchar(10);
-
-    return (0);
+return (0);
 }
