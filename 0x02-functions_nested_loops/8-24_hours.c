@@ -6,7 +6,8 @@
 
 void jack_bauer(void)
 {
-int v = 0, x = 0, y = 0, z = 0, m = 0;
+int v = 0;
+int x = 0, y = 0, z = 0, m = 0;
 
 while (v < 1440)
 {
@@ -33,7 +34,7 @@ if (y > 9)
 y = 0;
 x++;
 }
-x++;
+v++;
 }
 
 }
