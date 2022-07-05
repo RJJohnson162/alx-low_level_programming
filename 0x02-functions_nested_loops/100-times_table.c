@@ -14,8 +14,8 @@ void print_times_table(int n)
 	{
 		for (b = 0; b <= n; b++)
 		{
-			z = a * b;
-			if (z > 99)
+			c = a * b;
+			if (c > 99)
 			{
 				_putchar(c / 100 + '0');
 				_putchar((c / 10 % 10) + '0');
