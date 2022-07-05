@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+#include <main.h>
 
 /**
  * main - program that prints _putchar when executed
