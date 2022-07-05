@@ -2,9 +2,7 @@
 
 /**
  * _islower -> checks if the alphabet is lower case
- * o -> parameter in the function
- * r -> parameter in the function
- * int c -> parameter in the function
+ * @c: a character argument
  * Return: returns 1 and 0 depending on the condition
  */
 
