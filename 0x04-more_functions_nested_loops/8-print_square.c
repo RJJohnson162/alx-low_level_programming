@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_square - prints a square of size of the number entered in variable size
+ * print_square - prints a square of size number stored in var size
  * @size: size of the square
- *
  * Return: void
  */
 
