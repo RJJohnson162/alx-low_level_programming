@@ -7,7 +7,7 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int print_number(char c)
+int print_number(int n)
 {
 	return (write(1, &c, 1));
 }
