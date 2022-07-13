@@ -1,23 +1,22 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * _strcat - concatenates two strings: *dest & *src
- * @src: src string
- * @dest: dest string
- * Return: give the address of dest
+ * _strcat - appends src to the dest string
+ * @dest: string to append by src
+ * @src: string to append to dest
+ * Return: address of dest
  */
-
 char *_strcat(char *dest, char *src)
 {
-    int a, b;
+	int i, j;
 
-    a = b = 0;
-    while (*(dest + a))
-        a++;
-    while ((*(dest + a) = *(src + b)))
-    {
-        a++;
-        b++;
-    }
-    return (dest);
+	i = j = 0;
+	while (*(dest + i))
+		i++;
+	while ((*(dest + i) = *(src + j)))
+	{
+		i++;
+		j++;
+	}
+	return (dest);
 }
