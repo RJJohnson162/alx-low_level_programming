@@ -7,7 +7,7 @@
   * Return: dest string
   */
 
- char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	char *s = dest;
 
@@ -25,3 +25,4 @@
 	*dest = '\0';
 	return (s);
 }
+
