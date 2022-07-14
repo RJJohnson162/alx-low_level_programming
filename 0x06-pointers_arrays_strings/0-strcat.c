@@ -1,28 +1,24 @@
 #include "main.h"
-
+#include <string.h>
  /**
   * _strcat - this is a function strcat
   * @dest: parameter
   * @src: parameter
-  * Return: dest string
+  * Return: a string
   */
 
 char *_strcat(char *dest, char *src)
-{
-	char *s = dest;
+ {
+    int len = 0, i;
 
-	while (*dest != '\0')
-	{
-		dest++;
-	}
-
-	while (*src != '\0')
-	{
-		*dest = *src;
-		dest++;
-		src++;
-	}
-	*dest = '\0';
-	return (s);
-}
-
+    while (dest[len])
+        len++;
+    
+    for ( i = 0; src[i] != \0; i++)
+    {
+        dest[len] = src[i];
+        len += 1;
+    }
+    dest[len] = '\0';
+    return (dest);
+ }
