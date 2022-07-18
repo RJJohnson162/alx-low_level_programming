@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _memeset - Function fills memory with constant byte
+ * _memset - Function fills memory with constant byte
  * @s: parameter with constant byte
  * @b: parameter pointing to memory area
  * @n: no. of bytes in memory area
- * 
  * Return: gives (s)
  */
 
