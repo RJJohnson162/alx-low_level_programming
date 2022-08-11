@@ -1,37 +1,19 @@
-#include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
+#include "lists.h"
 
 /**
- * alloc_grid - creates a 2 dimensional array of integers initialized to 0
- * @width: width of array
- * @height: height of array
+ * free_list - Realease the memory allocated for a list
  *
- * Return: a double pointer to the 2D array
+ * @head: A pointer to the first node of the list to free
  */
-int **alloc_grid(int width, int height)
+void free_list(list_t *head)
 {
-	int i, j;
-	int **a;
-
-	if (width <= 0 || height <= 0)
-		return (NULL);
-	a = (int **)malloc(sizeof(int *) * height);
-	if (a == NULL)
-		return (NULL);
-	for (i = 0; i < height; i++)
+	if (head)
 	{
-		a[i] = (int *)malloc(sizeof(int) * width);
-		if (a[i] == NULL)
-		{
-			for (j = 0; j < i; j++)
-				free(a[j]);
-			free(a);
-			return (NULL);
-		}
-		for (j = 0; j < width; j++)
-		{
-			a[i][j] = 0;
-		}
+		free_list(head->next);
+		if (head->str)
+			free(head->str);
+		free(head);
 	}
-	return (a);
 }
